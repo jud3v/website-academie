@@ -22,6 +22,7 @@ a {
 
 body {
     height: 100vh;
+    background: #f1f1f1;
 }
 
 footer {
@@ -125,6 +126,72 @@ table, th, td {
 
 .text-red {
     color: red;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 10px;
+    display: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 6px 6px 12px #c9c9c9c9,
+                -6px -6px 12px #fff;
+}
+
+.btn.active .ligne::after {
+    top: 0;
+    transform: rotate(45deg);
+    transition: top 300ms ease, transform 300ms 300ms ease;
+}
+
+.btn.active .ligne {
+    background: transparent;
+}
+
+.btn.active .ligne::before {
+    bottom: 0;
+    transform: rotate(-45deg);
+    transition: bottom 300ms ease, transform 300ms 300ms ease;
+}
+
+.ligne {
+    width: 45%;
+    height: 3px;
+    border-radius: 5px;
+    background: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0ms 300ms;
+}
+
+.ligne:before {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    background: #333;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    transition: bottom 300ms 300ms ease, transform 300ms ease;
+}
+
+.ligne:after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    background: #333;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    transition: top 300ms 300ms ease, transform 300ms ease;
 }
 
 .ml-0 {
@@ -425,9 +492,11 @@ table, th, td {
     transform: translateY(+3px);
 }
 
-#icon {
-    position: absolute;
-    margin-left: 1rem;
+path{
+    font-weight: bold;
+    stroke-dasharray: 2000px;
+    stroke-dashoffset: 2000px;
+    animation: animationOfSvgPath 10s ease forwards;
 }
 
 #twitter-widget {
@@ -436,9 +505,35 @@ table, th, td {
     margin-bottom: 50px;
 }
 
+#icon {
+    position: absolute;
+    margin-left: 1rem;
+}
+
+#img-front {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    backface-visibility: visible;
+    width: 100%;
+    border-radius: 15px;
+}
+
+@keyframes animationOfSvgPath {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
 @media only screen and (max-width: 768px){
     .header-btn {
         display:none
+    }
+    .btn {
+        position: absolute;
+        display: flex;
+        justify-self: flex-end;
+        float: right;
     }
     header {
         padding-bottom: 50px;
