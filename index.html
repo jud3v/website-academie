@@ -6,8 +6,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
+    <!--  font-awesome library for icon  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--  Styles  -->
-    <link rel="stylesheet" href="../style/app.css">
+    <link rel="stylesheet" href="style/app.css">
 </head>
 <header>
     <div>
@@ -15,39 +17,40 @@
     </div>
     <nav>
         <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./players.html">Équipe</a></li>
-            <li><a href="./contact.html">Contact</a></li>
-            <li><a href="./about.html">À propos</a></li>
+            <li><a class="header-btn" href="./index.html">Home</a></li>
+            <li><a class="header-btn" href="pages/players.html">Équipe</a></li>
+            <li><a class="header-btn" href="pages/contact.html">Contact</a></li>
+            <li><a class="header-btn" href="pages/about.html">À propos</a></li>
         </ul>
     </nav>
 </header>
 <body>
-<main>
+
     <section class="wrapper">
         <div>
             <h2 class="text-center pt-2 mt-2 mb-4 pb-4">Rainbow Six Siege</h2>
         </div>
         <div>
+            <h4 class="mb-2">Origine</h4>
             <p>G2 Esports (anciennement Gamers2) est un club de sport électronique basé à Berlin en Allemagne créé en 2013.</p>
         </div>
-        <div>
-            <h4>Histoire</h4>
+        <div class="mt-3">
+            <h4 class="mb-2">Histoire</h4>
             <p>G2 Esports se lance dans Rainbow Six Siege le 10 août 2018, en achetant l'équipe de Penta Sports. En effet, cette équipe fait partie des meilleures du monde en étant les doubles vainqueurs du Six Invitational 2018 et 2019, plus de nombreuses Pro League.
                 <br>
                 Enfin, ils remportent le Six Major Paris 2018 sur un 3-0 contre les américains de Evil Geniuses14.
                 <br>
                 Equipe considérée a ce jour comme étant la meilleure équipe esport de Rainbow Six Siege.
                 <br>
-            Pour voir la composition de l'équipe veuillez suivre ce lien: <a href="./players.html">ici</a></p>
+            Pour voir la composition de l'équipe veuillez suivre ce lien: <a href="pages/players.html">ici</a></p>
         </div>
         <div>
             <h4 class="pt-3 mt-3 ml-0 text-center">
                 Réalisations
             </h4>
-            <hr class="w-50 text-center mt-5">
+            <hr class="w-50 text-center mt-3">
             <div class="row">
-                <table class="text-center mt-4 mb-4">
+                <table class="text-center shadow rounded mt-4 mb-4">
                     <thead>
                         <tr>
                             <th>Place</th>
@@ -85,9 +88,9 @@
                 </table>
             </div>
             <div>
-                <h4 class="mt-5 mb-5 text-center">Moment marquant</h4>
-                <hr class="w-50 text-center mt-5">
-                <table class="text-center mt-4 mb-4">
+                <h4 class="mt-3 mb-3 text-center">Moment marquant</h4>
+                <hr class="w-50 text-center mt-2">
+                <table class="text-center rounded shadow mt-4 mb-4">
                 <thead>
                 <tr>
                     <th>Pseudo</th>
@@ -137,10 +140,38 @@
                 </tr>
                 </tbody>
                 </table>
+                <h3 class="mt-4 pt-3 mb-4 pb-3 text-center">Fil d'actualité twitter de G2Esports</h3>
+                <div id="twitter-widget">
+                    <a class="twitter-timeline" href="https://twitter.com/G2esports?ref_src=twsrc%5Etfw">Tweets by G2esports</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
             </div>
         </div>
     </section>
-</main>
-<script type="text/javascript" src="../script/app.js"></script>
+<script type="text/javascript" src="script/app.js"></script>
 </body>
+<footer class="wrapper mt-3">
+    <div>
+        <div>
+            <h3>Restons en contact</h3>
+            <p>55-55-55-55-55</p>
+            <p>supportclient@contact.com</p>
+            <p>6 rue de l'invention, Paris VII, 75007</p>
+        </div>
+        <div class=" mt-3 mb-3">
+            <h3>Les horaires</h3>
+            <ul>
+                <li>✔️ Lun 10h-19h</li>
+                <li>✔️ Mar 10h-19h</li>
+                <li>✔️ Mer 10h-19h</li>
+                <li>✔️ Jeu 10h-19h</li>
+                <li>✔️ Ven 10h-19h</li>
+                <li>❌ Sam fermé</li>
+                <li>❌ Dim fermé</li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="text-center"><b>Made for admission of web@cademie</b></h4>
+        </div>
+    </div>
+</footer>
 </html>
