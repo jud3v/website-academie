@@ -31,7 +31,7 @@ body {
 }
 
 p {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -40,7 +40,7 @@ p {
 }
 
 main {
-    height: 100vh;
+    height: 100%    ;
 }
 
 footer {
@@ -56,13 +56,25 @@ header {
     position: relative;
     margin-top: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #F2542D;
 }
 
 ul {
     padding-top: 0.5rem;
     display: flex;
     justify-content: center;
+}
+
+hr {
+    border: 1px solid #F2542D;
+}
+
+a {
+    color: #F2542D;
+}
+
+a:hover {
+    color: #179fff;
 }
 
 li {
@@ -84,6 +96,10 @@ li {
     border-bottom: none;
     color: white;
     background-color: #F2542D;
+}
+
+.text-orange {
+    color: #F2542D;
 }
 
 .header-btn:active {

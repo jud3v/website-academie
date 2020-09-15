@@ -28,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/players.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/players.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/app.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,7 @@
       <workItem from="1600101472605" duration="12703000" />
       <workItem from="1600133246537" duration="6750000" />
       <workItem from="1600175711480" duration="18300000" />
-      <workItem from="1600201560592" duration="383000" />
+      <workItem from="1600201560592" duration="3789000" />
     </task>
     <servers />
   </component>
@@ -111,13 +112,13 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1600180891505" />
-    <state x="347" y="174" key="run.anything.popup" timestamp="1600194210907">
+    <state x="347" y="174" key="run.anything.popup" timestamp="1600203150745">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1600194210907" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600195989369">
+    <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1600203150745" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600204571022">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1600195989369" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1600204571022" />
   </component>
 </project>
