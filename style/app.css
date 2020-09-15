@@ -8,7 +8,12 @@
     scroll-behavior: smooth;
     line-height: 1.6rem;
     letter-spacing: 0.135rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',Arial, sans-serif;
+}
+
+#youtube-video {
+    width: 100%;
+    height: 100vh;
 }
 
 html {
@@ -547,5 +552,26 @@ path{
     }
     header {
         padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    #youtube-video {
+        width: 100%;
+        height: 30%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    #youtube-video {
+        width: 100%;
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    #youtube-video {
+        width: 100%;
+        height: 40vh;
     }
 }
