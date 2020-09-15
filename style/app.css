@@ -514,9 +514,10 @@ path{
 }
 
 #twitter-widget {
-    max-height: 500px !important;
+    max-height: 400px !important;
+    width: 90%;
     overflow-y: scroll;
-    margin-bottom: 50px;
+    margin: 5rem auto;
 }
 
 #icon {
@@ -559,6 +560,28 @@ path{
     #youtube-video {
         width: 100%;
         height: 30%;
+    }
+    .get-responsive-player {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .image-fluid {
+        height: 100%;
+        width: 100%;
+        margin: 30px auto;
+    }
+    .responsive-text {
+        text-align: center;
+    }
+    #get-responsive-flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .block {
+        display: block;
+        text-align: center;
     }
 }
 
