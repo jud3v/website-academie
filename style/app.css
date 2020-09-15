@@ -30,6 +30,19 @@ body {
     background: #f1f1f1;
 }
 
+p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#screen {
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+}
+
 footer {
     position: relative;
 }
@@ -77,11 +90,6 @@ li {
     transform: translateY(+3px);
 }
 
-main {
-    height: 100vh;
-}
-
-
 /*UTILS*/
 .text-center {
     text-align: center;
@@ -97,7 +105,7 @@ h4 {
 }
 
 h3 {
-    font-size: 28px;
+    font-size: 24px;
     border-bottom: 2px #F2542D;
 }
 
@@ -433,6 +441,7 @@ table, th, td {
 }
 
 .wrapper {
+    position: relative;
     margin-right: auto;
     margin-left:  auto;
 
