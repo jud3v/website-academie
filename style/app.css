@@ -73,7 +73,7 @@ a:hover {
 
 nav {
     padding-top: 5px;
-    height: 12vh;
+    height: 14vh;
     background-color: #F2542D;
 }
 
@@ -127,12 +127,12 @@ li {
         height: 100vh;
         width: 100%;
         flex-direction: column;
-        clip-path: circle(100px at 90% -20%);
+        clip-path: circle(100px at 90% -10%);
         transition: all 1s ease-out;
         pointer-events: none;
     }
     .nav-links.open {
-        clip-path: circle(1000px at 90% -20%);
+        clip-path: circle(1000px at 90% -10%);
         pointer-events: all;
     }
     .nav-links li {opacity: 0}
@@ -536,7 +536,7 @@ table, th, td {
 }
 
 .items-center {
-    justify-items: center;
+    align-items: center;
 }
 
 .rounded {
