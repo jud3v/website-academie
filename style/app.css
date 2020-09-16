@@ -536,7 +536,7 @@ path{
     font-weight: bold;
     stroke-dasharray: 2000px;
     stroke-dashoffset: 2000px;
-    animation: animationOfSvgPath 10s ease forwards;
+    animation: animationOfSvgPath 10s ease-in-out forwards;
 }
 
 #twitter-widget {
