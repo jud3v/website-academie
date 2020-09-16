@@ -66,7 +66,8 @@ ul {
 }
 
 hr {
-    border: 1px solid #F2542D;
+    border: 2px none #F2542D;
+    border-bottom-style: solid;
 }
 
 a {
