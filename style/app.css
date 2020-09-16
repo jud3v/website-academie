@@ -54,15 +54,8 @@ label {
 
 header {
     position: relative;
-    margin-top: 1rem;
     padding-bottom: 1rem;
     border-bottom: 2px solid #F2542D;
-}
-
-ul {
-    padding-top: 0.5rem;
-    display: flex;
-    justify-content: center;
 }
 
 hr {
@@ -78,10 +71,85 @@ a:hover {
     color: #179fff;
 }
 
-li {
+nav {
+    padding-top: 5px;
+    height: 12vh;
+    background-color: #F2542D;
+}
+
+.nav-links {
+    display: flex;
     list-style: none;
-    padding: 0 1rem;
-    margin: 0.5em 0;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .line {
+        width: 30px;
+        height: 3px;
+        background: white;
+        margin: 5px;
+    }
+
+    nav {
+        position: relative;
+    }
+    .wrapper {
+        z-index: -1;
+    }
+    .hamburger {
+        z-index: 1;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+    }
+
+    .nav-links {
+        position: fixed;
+        background: #F2542D;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(100px at 90% -20%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+    }
+    .nav-links.open {
+        clip-path: circle(1000px at 90% -20%);
+        pointer-events: all;
+    }
+    .nav-links li {opacity: 0}
+    .nav-links li a {
+        font-size: 22px;
+    }
+    .nav-links li:nth-child(1){
+        transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(2){
+        transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(3){
+        transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(4){
+        transition: all 0.5s ease 0.8s;
+    }
+    li.fade {
+        opacity: 1;
+    }
 }
 
 .header-btn {
@@ -160,38 +228,6 @@ table, th, td {
 
 .text-red {
     color: red;
-}
-
-.btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-bottom: 10px;
-    display: none;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    background-color: #f1f1f1;
-    border-radius: 5px;
-    box-shadow: 6px 6px 12px #c9c9c9c9,
-                -6px -6px 12px #fff;
-}
-
-.btn.active .ligne::after {
-    top: 0;
-    transform: rotate(45deg);
-    transition: top 300ms ease, transform 300ms 300ms ease;
-}
-
-.btn.active .ligne {
-    background: transparent;
-}
-
-.btn.active .ligne::before {
-    bottom: 0;
-    transform: rotate(-45deg);
-    transition: bottom 300ms ease, transform 300ms 300ms ease;
 }
 
 .ligne {
@@ -539,6 +575,10 @@ path{
     animation: animationOfSvgPath 10s ease-in-out forwards;
 }
 
+#get-block {
+    position: relative;
+}
+
 #twitter-widget {
     max-height: 400px !important;
     width: 90%;
@@ -570,12 +610,6 @@ path{
 @media only screen and (max-width: 768px){
     .header-btn {
         display:none
-    }
-    .btn {
-        position: absolute;
-        display: flex;
-        justify-self: flex-end;
-        float: right;
     }
     header {
         padding-bottom: 50px;
