@@ -1,8 +1,9 @@
-<h4><b>Site web écrit en HTML5 / CSS3 / JavaScript ES6.</b></h2>
+<h4><b>Description</b></h2>
 <p>Thème choisi: </p>
-<p>Le jeux vidéo plus précisément rainbow six siege et la compétition qui l'entoure depuis près de 7 ans maintenant.</p>
+<p>Le jeux vidéo plus précisément rainbow six siege et la compétition qui l'entoure depuis près de 7 ans.</p>
 <p>J'ai pris pour exemple l'équipe de G2 Esports qui ont remporté le SIX Invitationals en 2019, qui est une compétition qui réunis les équipes du monde entiers.</p>
-
+<p>Site web écrit en HTML5 / CSS3 / JavaScript ES6.</p>
+<hr>
 <h5>Les fonctionnalités:</h5>
 <ul>
     <li>Responsive: web, mobile, tablette.</li>
