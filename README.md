@@ -6,7 +6,7 @@
 <h5>Les fonctionnalités:</h5>
 <ul>
     <li>Responsive: web, mobile, tablette.</li>
-    <li>Animation SVG</li>
+    <li>Animation SVG, CSS</li>
     <li>Système qui affiche le bouton dans la bar de navigation en couleur lorsqu'on se trouve sur la page correspondante.</li>
     <li>Menu dit hamburger qui simplifie la navigation des utilisateurs de mobile et tablette.</li>
     <li>Fil d'actualité twitter de l'équipe G2 Esports dans la page principale.</li>
