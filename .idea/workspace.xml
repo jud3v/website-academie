@@ -28,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/pages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/players.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/players.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/app.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +91,8 @@
       <workItem from="1600201560592" duration="4665000" />
       <workItem from="1600263908645" duration="697000" />
       <workItem from="1600265403773" duration="11895000" />
-      <workItem from="1600293189574" duration="1670000" />
+      <workItem from="1600293189574" duration="2067000" />
+      <workItem from="1600345997312" duration="3442000" />
     </task>
     <servers />
   </component>
@@ -122,9 +124,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="347" y="174" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1600203150745" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600294175400">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600349303914">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1600294175400" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1600349303914" />
   </component>
 </project>

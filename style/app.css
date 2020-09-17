@@ -11,6 +11,18 @@
     font-family: 'Roboto',Arial, sans-serif;
 }
 
+.spy.active {
+    background-color: #f2542d;
+    padding: 6px 10px;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.2s ease-out 0.2s;
+}
+
+.spy {
+    display: block;
+}
+
 #youtube-video {
     width: 90%;
     height: 80vh;
@@ -23,6 +35,11 @@ html {
 
 a {
     text-decoration: none;
+    color: #0085e5;
+}
+
+a:hover {
+    color: #F2542D;
 }
 
 body {
@@ -63,14 +80,6 @@ hr {
     border-bottom-style: solid;
 }
 
-a {
-    color: #F2542D;
-}
-
-a:hover {
-    color: #179fff;
-}
-
 nav {
     padding-top: 0;
     height: 11vh;
@@ -101,6 +110,17 @@ li {
     list-style: none;
 }
 
+@media only screen and (max-width: 1200px) {
+    nav {
+        margin-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    nav {
+        margin-bottom: 2rem;
+    }
+}
 @media only screen and (max-width: 768px) {
     .line {
         width: 30px;
@@ -111,10 +131,13 @@ li {
 
     nav {
         position: relative;
+        margin-bottom: 2rem;
     }
+
     .wrapper {
         z-index: -1;
     }
+
     .hamburger {
         z-index: 1;
         position: absolute;
